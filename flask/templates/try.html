@@ -1,0 +1,26 @@
+<!-- 
+Design register pure CSS
+Developed by @mrjopino
+-->
+<html>
+  <head>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+   <body>
+<p class="texto">Student</p>
+<div class="Registro">
+<form action = "{{ url_for('addrec') }}" method = "POST">
+
+
+<input type="text" required placeholder="Nombre de usuario" autocomplete="off"> 
+<input type="text" id="email" required placeholder="Correo" autocomplete="off">
+<input type="password" name="password" id="password" required placeholder="Contraseña" autocomplete="off"> 
+			
+
+
+<input type="submit" value="Registrar" title="Registra tu cuenta">
+</div>
+ </form>
+      
+   </body>
+   </head>
+</html>

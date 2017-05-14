@@ -1,0 +1,106 @@
+<!doctype html>
+<link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+<html>
+   <body>
+      
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         <p>
+            <label for="username" class="icon-user"> <p>Name
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="m" id="username" required="required" placeholder="Your Name" />
+        </p>
+
+        <p>
+            <label for="usermail" class="icon-envelope"> <p>E-mail address
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="n" id="usermail" placeholder="I promise I hate spam too!" required="required" />
+        </p>
+         
+         <p>
+            <label for="usermail" class="icon-envelope"><p> Phone no
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="b" id="usermail" placeholder="Enter 10 digits without 0" required="required" />
+        </p>
+         <p>
+            <label for="username" class="icon-user"><p> Name of your college
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="v" id="username" required="required" placeholder="Name of your college" />
+        </p>
+
+        <p>
+            <label for="username" class="icon-user"><p> Department
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="c" id="username" required="required" placeholder="Your Department" />
+        </p>
+
+        <p>
+            <label for="username" class="icon-user"><p> Name of your Faculty advisor
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="x" id="username" required="required" placeholder="" />
+        </p>
+        
+        <p>
+            <label for="username" class="icon-user"><p> Name of your HOD
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="z" id="username" required="required" placeholder="" />
+        </p>
+
+        <p>
+            <label for="username" class="icon-user"><p> Name of your Dean
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="l" id="username" required="required" placeholder="" />
+        </p>
+        
+        <p>
+            <label for="username" class="icon-user"><p> Name of your Father
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="k" id="username" required="required" placeholder="" />
+        </p>
+
+        <p>
+            <label for="username" class="icon-user"><p> Your Father's phone no
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="j" id="username" required="required" placeholder="Only 10 digit" />
+        </p>
+        
+
+
+        <p>
+            <label for="username" class="icon-user"><p> Name of your mother
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="h" id="username" required="required" placeholder="" />
+        </p>
+        
+        <p>
+            <label for="username" class="icon-user"><p> Your mother's phone no 
+                <span class="required">*</span></p>
+            </label>
+            <input type="text" name="g" id="username" required="required" placeholder="Only 10 digit" />
+        </p>
+         
+         
+        
+        <p class="indication">Fields with
+            <span class="required"> * </span>are required</p>
+         
+         <input type="submit" value=" upload cv " />
+
+
+        <input type="submit" value=" Send this mail ! " />
+
+      </form>
+      
+   </body>
+</html>
