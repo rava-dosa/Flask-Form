@@ -20,6 +20,8 @@ def addrec():
          nm = request.form['nm']
          email = request.form['email']
          phone = request.form['phone']
+         year = request.form['year']
+         cg = request.form['cg']
          college = request.form['college']
          dep = request.form['dep']
          facad = request.form['facad']
@@ -37,7 +39,7 @@ def addrec():
          with sql.connect("database.db") as con:
             cur = con.cursor()
             
-            cur.execute("INSERT INTO students (name,email,phone,college,dep,facad,hod,dean,father,fathermob,mother,mothermob) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",(nm,email,phone,college,dep,facad,hod,dean,father,fathermob,mother,mothermob) )
+            cur.execute("INSERT INTO students (name,email,phone,year,cg,college,dep,facad,hod,dean,father,fathermob,mother,mothermob) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",(nm,email,phone,year,cg,college,dep,facad,hod,dean,father,fathermob,mother,mothermob) )
             
             con.commit()
             msg = "Record successfully added"
