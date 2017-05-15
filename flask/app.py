@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
+from flask_recaptcha import ReCaptcha
 import sqlite3 as sql
 app = Flask(__name__)
+recaptcha = ReCaptcha(app=app)
 
 @app.route('/')
 def home():
@@ -12,6 +14,7 @@ def new_student():
 
 @app.route('/addrec',methods = ['POST', 'GET'])
 def addrec():
+   
    if request.method == 'POST':
       try:
          nm = request.form['nm']

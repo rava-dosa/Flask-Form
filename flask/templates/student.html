@@ -4,52 +4,52 @@
       <form action = "{{ url_for('addrec') }}" method = "POST">
          <h3>Student Information</h3>
          Name<br>
-         <input type = "text" name = "nm" /></br>
+         <input type = "text" name = "nm" required/></br>
          
          Email<br>
-         <input type = "text" name = "email" /></br>
+         <input type = "text" name = "email" required/></br>
          
          Mobile No<br>
-         <input type = "text" name = "phone" /><br>
+         <input type = "number" name = "phone" min="7000000000" max="9999999999" required/><br>
          
          Name of College<br>
-         <input type = "text" name = "college" /><br>
+         <input type = "text" name = "college" required /><br>
          
          Department<br>
-         <input type = "text" name = "dep" /><br>
+         <input type = "text" name = "dep" required/><br>
 
          Fac-Ad<br>
-         <input type = "text" name = "facad" /><br>
+         <input type = "text" name = "facad" required/><br>
 
          H.O.D<br>
-         <input type = "text" name = "hod" /><br>
+         <input type = "text" name = "hod" required/><br>
 
          Dean<br>
-         <input type = "text" name = "dean" /><br>
+         <input type = "text" name = "dean" required/><br>
 
          Father's Name<br>
-         <input type = "text" name = "father" /><br>
+         <input type = "text" name = "father" required/><br>
          
          Father's Mob<br>
-         <input type = "text" name = "fathermob" /><br>
+         <input type = "number" name = "fathermob" min="7000000000" max="9999999999" required /><br>
 
          Mother's Name<br>
-         <input type = "text" name = "mother" /><br>
+         <input type = "text" name = "mother" required /><br>
 
 
          Mother's Mob<br>
-         <input type = "text" name = "mothermob" /><br>
+         <input type = "number" name = "mothermob" min="7000000000" max="9999999999" required /><br>
 
          
 
 
 
-
+         
 
          <input type = "submit" value = "submit" /><br>
 
 
       </form>
-      
+     
    </body>
 </html>
