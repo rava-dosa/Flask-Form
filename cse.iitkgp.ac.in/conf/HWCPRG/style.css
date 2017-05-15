@@ -1,0 +1,325 @@
+body  {
+background: #E9F2F6;
+margin: 0;
+}
+
+#container { 
+width: 780px;
+margin: 0 auto;
+}
+
+#header { 
+padding: 35px 30px 5px 30px;
+background: #3b7687;
+} 
+
+#logo {
+	float: right;
+}
+
+#header a {
+color: #FFFFFF;
+text-decoration: none;
+font-size: 30px; 
+font-family: "Myriad Pro";
+}
+
+#menu {
+	background-color: #3b7687;
+	padding: 6px 30px 6px 30px;
+	text-align: left;
+}
+
+#menu a {
+color: #c5d6db;
+text-decoration: none; 
+font-size: 14px; 
+font-family: "Myriad Pro";
+text-transform: uppercase;
+}
+
+#menu a:hover {
+color: #ecf2f3;
+}
+
+#sidebar {
+float: left;
+width: 160px;
+padding: 30px 30px 0 30px;
+margin: 0;
+color: #444444;
+text-align: center;
+}
+
+#sidebar a {
+text-decoration: none; 
+color: #262626;
+font-family: "Lucida Sans Unicode";
+font-size: 12px;
+}
+
+#sidebar a:hover {
+color: #666666;
+}
+
+#sidebar img {
+border: solid 1px #d6d6d6;
+}
+
+.project {
+margin:15px 0 25px 0;
+}
+
+h1 {
+margin: 0px;
+color: #869843; 
+font-size:24px; 
+font-family: "Arial Narrow"; 
+font-weight: normal;
+}
+
+h2 {
+	color: #0000FF;
+	font-size: 15px;
+	margin: 20px 0 5px 0;
+}
+
+#main {
+background-image:url(http://cse.iitkgp.ac.in/conf/HWCPRG/images/bg.gif);
+} 
+
+#text {
+	margin: 0 0 0 220px;
+	padding: 25px 30px 30px 30px;
+	color: #000000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: justify;
+	letter-spacing: normal;
+} 
+
+#text a {
+color: #3b7687; 
+text-decoration: none;
+}
+
+#text a:hover {
+color: #444444;
+}
+
+#footer {
+padding: 6px 30px 6px 30px;
+background: #d6d6d6; 
+font-family: "Lucida Sans Unicode";
+color: #444444;
+font-size: 11px;
+text-align: right;
+}
+
+#footer a {
+text-decoration: none; 
+color: #262626;
+}
+
+#footer a:hover {
+color: #666666;
+}
+
+.clear {
+clear:both;
+}
+
+.separator {
+font-size:11px;
+color:#FFFFFF;
+}
+#container #main #text p {
+	color: #0000ff;
+	font-size: 15px;
+	margin: 20px 0 5px 0;
+}
+#container #main #text p {
+	color: #000;
+}
+#container #main #text p {
+	color: #0000FF;
+}
+#container #main #text h2 {
+	color: #00F;
+}
+#container #main #text h2 {
+	color: #0080C0;
+}
+#container #main #text h2 {
+	color: #00F;
+}
+#container #main #text p font b {
+	font-family: "Times New Roman", Times, serif;
+}
+/* vertical drop down menu */
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  width: 190px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+#cssmenu ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 15px 20px;
+  border-left: 1px solid #1682ba;
+  border-right: 1px solid #1682ba;
+  border-top: 1px solid #1682ba;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  background: #36aae7;
+  background: -webkit-linear-gradient(#36aae7, #1fa0e4);
+  background: -moz-linear-gradient(#36aae7, #1fa0e4);
+  background: -o-linear-gradient(#36aae7, #1fa0e4);
+  background: -ms-linear-gradient(#36aae7, #1fa0e4);
+  background: linear-gradient(#36aae7, #1fa0e4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li.open > a {
+  color: #eeeeee;
+  background: #1fa0e4;
+  background: -webkit-linear-gradient(#1fa0e4, #1992d1);
+  background: -moz-linear-gradient(#1fa0e4, #1992d1);
+  background: -o-linear-gradient(#1fa0e4, #1992d1);
+  background: -ms-linear-gradient(#1fa0e4, #1992d1);
+  background: linear-gradient(#1fa0e4, #1992d1);
+}
+#cssmenu > ul > li.open > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid #1682ba;
+}
+#cssmenu > ul > li:last-child > a,
+#cssmenu > ul > li.last > a {
+  border-bottom: 1px solid #1682ba;
+}
+.holder {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.holder::after,
+.holder::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  right: 20px;
+  z-index: 10;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.holder::after {
+  top: 17px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+#cssmenu > ul > li > a:hover > span::after,
+#cssmenu > ul > li.active > a > span::after,
+#cssmenu > ul > li.open > a > span::after {
+  border-color: #eeeeee;
+}
+.holder::before {
+  top: 18px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-color: inherit;
+  border-left-color: inherit;
+}
+#cssmenu ul ul li a {
+  cursor: pointer;
+  border-bottom: 1px solid #32373e;
+  border-left: 1px solid #32373e;
+  border-right: 1px solid #32373e;
+  padding: 10px 20px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: 13px;
+  color: #eeeeee;
+  background: #49505a;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li.open > a,
+#cssmenu ul ul li.active > a {
+  background: #424852;
+  color: #ffffff;
+}
+#cssmenu ul ul li:first-child > a {
+  box-shadow: none;
+}
+#cssmenu ul ul ul li:first-child > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#cssmenu ul ul ul li a {
+  padding-left: 30px;
+}
+#cssmenu > ul > li > ul > li:last-child > a,
+#cssmenu > ul > li > ul > li.last > a {
+  border-bottom: 0;
+}
+#cssmenu > ul > li > ul > li.open:last-child > a,
+#cssmenu > ul > li > ul > li.last.open > a {
+  border-bottom: 1px solid #32373e;
+}
+#cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+  border-bottom: 0;
+}
+#cssmenu ul ul li.has-sub > a::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  right: 20px;
+  z-index: 10;
+  top: 11.5px;
+  border-top: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+#cssmenu ul ul li.active > a::after,
+#cssmenu ul ul li.open > a::after,
+#cssmenu ul ul li > a:hover::after {
+  border-color: #ffffff;
+}
